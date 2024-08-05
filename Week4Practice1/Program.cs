@@ -25,11 +25,10 @@ internal class Program
         student2.DateofBirth = new DateTime(2028, 08, 30);
 
 
-        Console.WriteLine("İlk öğretmenin bilgileri : "+ teacher1.Name + " " + teacher1.LastName + " " + teacher1.DateofBirth);
-        Console.WriteLine("İkinci öğretmenin bilgileri : " + teacher2.Name + " " + teacher2.LastName + " " + teacher2.DateofBirth);
+        teacher1.InfoPerson();
+        teacher2.InfoPerson();
 
-        Console.WriteLine("İlk öğrencinin bilgileri : " + student1.Name + " " + student1.LastName + " " + student1.DateofBirth);
-        Console.WriteLine("İkinci öğrencinin bilgileri : " + student2.Name + " " + student2.LastName + " " + student2.DateofBirth);
-
+        student1.InfoPerson();
+        student2.InfoPerson();
     }
 }
